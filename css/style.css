@@ -1,0 +1,114 @@
+@font-face {font-family: "HelveticaNeueLT"; src: url("../fonts/alfont_com_AlFont_com_helveticaneueltarabicroman1.ttf"); }
+body{
+    font-family: "HelveticaNeueLT";
+    direction: rtl;
+}
+.bgGray{
+    background-color: #f0f5fa;
+}
+.textPrimary{
+    color: #002C6C;
+}
+.btnCode{
+    background-color: #cd3d0e;
+    border-radius: 10px;
+    /* padding: 4px; */
+    font-size: 14px;
+    color: white;
+}
+.height40{
+    height: 40px;
+}
+.height48{
+    height: 48px;
+}
+.btnCode:hover{
+    background-color: white;
+    color: #cd3d0e;
+    border: 1px solid #cd3d0e;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-18{
+    font-size: 18px;
+}
+.borderStyle{
+    height: 5px !important;
+    opacity: 1;
+    width: 268px;
+    border-radius: 4px;
+    background-color: #CD3C0D;
+}
+.textOpacity{
+    opacity: 0.75;
+    color: #262626;
+}
+.borderRaduis{
+    border-radius: 10px;
+}
+.imgPlay{
+    position: absolute;
+    right: -1.4rem;
+    bottom: 9rem;
+    border-radius: 10px;
+}
+.concat{
+    background-color: #002C6C;
+    border-radius: 10px;
+    padding-right: 1rem;
+}
+.btnContact{
+    background-color: #cd3c0d;
+    color: white;
+    border-radius: 10px;
+}
+.btnContact:hover{
+    background-color: white;
+    color: #cd3c0d;
+    border: 1px solid #cd3c0d;
+}
+.tableCompare{
+    box-shadow: 1px 3px 5px 6px rgb(153 155 168 / 37%);
+    border-radius: 20px;
+}
+.tableHead{
+    background-color: #dde9fb;
+}
+.tableHead th{
+    padding: 1rem;
+    border-bottom: none;
+    min-width: 10rem;
+}
+.tableHead tr th:first-child{
+    border-radius: 0px 20px 0px 0px;
+}
+.tableHead tr th:last-child{
+    border-radius: 20px 0px 0px 0px;
+}
+.tableBody tr td{
+    padding: 1rem;
+    font-size: 16px;
+}
+.tableBody tr:nth-child(odd){
+    background-color: white; 
+}
+.tableBody tr:last-child td:first-child{
+    border-radius: 0px 0px 20px 0px;
+}
+.tableBody tr:last-child td:last-child{
+    border-radius: 0px 0px 0px 20px;
+}
+@media screen and (max-width:575px) {
+    .btnContact,.btnWidth{
+        width: 100%;
+    }
+}
+@media screen and (max-width:380px) {
+    .firstHeader .font-14{
+        font-size: 12px;
+    }
+}

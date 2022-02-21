@@ -135,6 +135,9 @@ body{
 .bgGrayLight{
     background-color: #fbfcfd;
 }
+.accordion-button{
+    line-height: 30px;
+}
 .accordion-button::after{
     margin-right: auto;
     margin-left: unset;

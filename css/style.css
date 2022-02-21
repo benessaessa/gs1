@@ -176,6 +176,17 @@ body{
     background-color: white;
     color: #002C6C;
 }
+@media screen and (min-width:1500px) {
+    .font-14{
+        font-size: 16px;
+    }
+    .font-16,p,button,td{
+        font-size: 18px !important;
+    }
+    .font-18{
+        font-size: 20px;
+    }
+}
 @media screen and (max-width:575px) {
     .btnContact,.btnWidth,.btnCodeFree{
         width: 100%;

@@ -67,6 +67,14 @@ body{
     bottom: 9rem;
     border-radius: 10px;
 }
+.imgPlay:hover{
+    opacity: 0.8;
+}
+/* -========================= video =================== */
+.videoStyle{
+    display: none;
+}
+/* ================================= */
 .concat{
     background-color: #002C6C;
     border-radius: 10px;
@@ -175,6 +183,23 @@ body{
 .socials i:hover{
     background-color: white;
     color: #002C6C;
+}
+/* ================================================ Form login =============================== */
+.formLogin label{
+    color: gray;
+    opacity: 0.8;
+}
+.formLogin ::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+}
+.formLogin .form-control{
+    padding-bottom: 0.7rem;
+    height: 48px;
+    border-radius: 10px;
+}
+.hoverPointer{
+    cursor: pointer;
 }
 @media screen and (min-width:1500px) {
     .font-14{

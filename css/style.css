@@ -201,6 +201,44 @@ body{
 .hoverPointer{
     cursor: pointer;
 }
+/* ================================================= File ===================================== */
+.fileText{
+    border-bottom: 2px solid #CD3C0D;
+    color: #CD3C0D;
+}
+.forDownlaod{
+    background-color: #d7e0eb;
+    border-radius: 5px;
+}
+.btnMore{
+    background-color: white;
+    color: #002C6C;
+    border: 1px solid #002C6C;
+    border-radius: 10px;
+}
+.btnMore:hover{
+    background-color: #002C6C;
+    color: white;
+}
+.btnProfile{
+    background-color: #f0f5fa;
+    color: black;
+    font-size: 14px;
+    border-radius: 30px;
+}
+.uploadSection{
+    border: 2px dashed black;
+}
+.badgeProccess{
+    background-color: #CD3C0D;
+    color: white;
+    border-radius: 15px;
+}
+.badgeReady{
+    background-color: #15C598;
+    color: white;
+    border-radius: 15px;
+}
 @media screen and (min-width:1500px) {
     .font-14{
         font-size: 16px;
@@ -213,7 +251,7 @@ body{
     }
 }
 @media screen and (max-width:575px) {
-    .btnContact,.btnWidth,.btnCodeFree{
+    .btnContact,.btnWidth,.btnCodeFree,.btnMore{
         width: 100%;
     }
 }
